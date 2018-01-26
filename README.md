@@ -10,7 +10,7 @@ A simple, responsive lightbox component for displaying an array of images.
 
 
 ```bash
-yarn add react-images --save
+yarn add react-images
 ```
 
 ```jsx
@@ -41,7 +41,7 @@ Live demo: [jossmac.github.io/react-images](http://jossmac.github.io/react-image
 To build the examples locally, run:
 
 ```
-yarn install
+yarn
 yarn start
 ```
 
@@ -89,7 +89,7 @@ closeButtonTitle | string | ' Close (Esc) ' | Customize close esc title
 enableKeyboardInput | bool  | true  | Supports keyboard input - <code>esc</code>, <code>arrow left</code>, and <code>arrow right</code>
 currentImage  | number  | 0 | The index of the image to display initially
 customControls | array | undefined | An array of elements to display as custom controls on the top of lightbox
-images  | array | undefined | Required. Array of image objects See image options table below 
+images  | array | undefined | Required. Array of image objects See image options table below
 imageCountSeparator  | String  | ' of ' | Customize separator in the image count
 isOpen  | bool  | false | Whether or not the lightbox is displayed
 leftArrowTitle | string | ' Previous (Left arrow key) ' | Customize of left arrow title
@@ -129,7 +129,7 @@ spinner | object | The spinner, this is pretty default by the spinner loaded by 
 
 Property	|	Type		|	Default		|	Description
 :-----------------------|:--------------|:--------------|:--------------------------------
-src  | string | undefined | Required 
-srcSet  | array of strings | undefined | Optional 
-caption  | string | undefined | Optional 
+src  | string | undefined | Required
+srcSet  | array of strings | undefined | Optional
+caption  | string | undefined | Optional
 alt  | string | undefined | Optional

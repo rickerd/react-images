@@ -27,9 +27,9 @@ function Footer ({
 		: <span />;
 
 	return (
-		<div className={css(classes.footer)} {...props}>
+		<div className={css(classes.footer), `footer`} {...props}>
 			{caption ? (
-				<figcaption className={css(classes.footerCaption)} dangerouslySetInnerHTML={{ __html: caption }}/>
+				<figcaption className={css(classes.footerCaption), `footer__caption`}  dangerouslySetInnerHTML={{ __html: caption }}/>
 			) : <span />}
 			{imageCount}
 		</div>

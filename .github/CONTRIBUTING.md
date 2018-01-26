@@ -14,6 +14,6 @@ the [development server](http://localhost:8000).
 adding a major new use-case, add a new example demonstrating its use.
 * Please **DO NOT** commit the build files. Make sure **ONLY** your changes to
 `/src/` and `/examples/src` are included in your PR.
-* Be careful to follow the code style of the project. Run `yarn run lint` after
+* Be careful to follow the code style of the project. Run `yarn lint` after
 your changes and ensure you do not introduce any new errors or warnings.
 * All new features and changes need documentation.
