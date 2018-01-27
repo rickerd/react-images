@@ -468,7 +468,7 @@ function Footer(_ref, _ref2) {
 
 	return React.createElement(
 		'div',
-		_extends({ className: (css$1(classes.footer), 'footer') }, props),
+		_extends({ className: css$1(classes.footer) + ' footer' }, props),
 		caption ? React.createElement('figcaption', { className: css$1(classes.footerCaption) + ' footerCaption', dangerouslySetInnerHTML: { __html: caption } }) : React.createElement('span', null),
 		imageCount
 	);

@@ -469,7 +469,7 @@ function Footer(_ref, _ref2) {
 
 	return React__default.createElement(
 		'div',
-		_extends({ className: (noImportant.css(classes.footer), 'footer') }, props),
+		_extends({ className: noImportant.css(classes.footer) + ' footer' }, props),
 		caption ? React__default.createElement('figcaption', { className: noImportant.css(classes.footerCaption) + ' footerCaption', dangerouslySetInnerHTML: { __html: caption } }) : React__default.createElement('span', null),
 		imageCount
 	);
